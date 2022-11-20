@@ -1,4 +1,4 @@
-cp -rt src/ docs/
+cp -t src/ docs/
 cp -i build/contracts/ChainList.json docs/
 git add .
 git commit -m "Adding frontend files to Github Pages"
